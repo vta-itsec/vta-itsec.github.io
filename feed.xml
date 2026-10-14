@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>lab feed</title><link>https://vta-itsec.github.io/</link><description>t</description>
+<item><title>Post A</title><link>https://vta-itsec.github.io/post-a</link><description>a</description><guid>a1</guid><enclosure url="https://i.pinimg.com/236x/eb/cb/c6/ebcbc6aaa9deca9d6efc1efc93b66945.jpg" type="image/jpeg"/></item>
+<item><title>Post B</title><link>https://vta-itsec.github.io/post-b</link><description>b</description><guid>b1</guid><enclosure url="https://i.pinimg.com/236x/eb/cb/c6/ebcbc6aaa9deca9d6efc1efc93b66945.jpg" type="image/jpeg"/></item>
+</channel></rss>
